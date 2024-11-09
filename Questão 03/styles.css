@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-color: gold;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    border-radius: 5px;
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: chocolate;
+    color: coral;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.error-message {
+    color:red;
+    margin-top: 10px;
+}
